@@ -1,0 +1,24 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+
+}
+
+.counter-container{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #000000;
+}
+
+.textFirst {
+    font-family: 'Montserrat';
+    font-size: 100px;
+}
+
+#counter {
+    font-family: 'Montserrat';
+    font-size: 70px;
+    align-items: center;
+    
+}
