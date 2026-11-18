@@ -15,7 +15,7 @@ body {
     font-family: 'Montserrat';
     font-size: 100px;
     text-align:center;
-    margin-top: 90px;
+    margin-top: 70px;
 }
 
 #counter {
@@ -58,5 +58,11 @@ body {
 
 #decrement-btn {
     background-color: #f44336;
+}
+
+#reset-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
