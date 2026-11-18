@@ -29,10 +29,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 40px;
 }
 
-#increment-btn, #decrement-btn {
+#increment-btn, #decrement-btn, #reset-btn {
     font-family: 'Montserrat';
     font-size: 20px;
     font-weight: bold;
@@ -44,11 +44,11 @@ body {
     transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
-#increment-btn:hover, #decrement-btn:hover {
+#increment-btn:hover, #decrement-btn:hover, #reset-btn:hover {
     background-color: #666464;
 }
 
-#increment-btn:active, #decrement-btn:active {
+#increment-btn:active, #decrement-btn:active, #reset-btn:active {
     transform: scale(0.95);
 }
 
@@ -61,8 +61,5 @@ body {
 }
 
 #reset-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #9e9e9e;
 }
-
